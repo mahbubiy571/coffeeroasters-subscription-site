@@ -1,0 +1,108 @@
+@import url("global.css");
+/* Hero Section */
+.hero {
+    width: 1280px;
+    height: 600px;
+    background-image: url("../images/hero__image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 10px;
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size:var(--font-size-h1-small);
+    line-height:var(--line-height-h1-small);
+    font-family: var(--font-family-title);
+    color:#FEFCF7;
+    padding-left: 85px;
+    padding-top: 117px;
+    padding-bottom: 16px;
+}
+.hero__text {
+    color:#FEFCF7;
+    width: 445px;
+    height: 78px;
+    margin-left: 85px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+.hero__button {
+    width: 217px;
+    height: 56px;
+    font-family: var(--font-family-title);
+    font-weight: 900;
+    font-size: var(--font-size-body-1);
+    line-height: var(--line-height-body-1);
+    background-color: var(--color-teal);
+    color:#FEFCF7;
+    padding: 15px 80.5px 16px 80.px;
+    border-radius: 6px;
+    transition: 0.3s;
+    margin-left: 85px;
+    margin-top: 28px;
+    margin-bottom: 116px;
+
+    &:hover {
+        background-color:var(--color-light-teal);
+    }
+}
+
+/* Collection Section */
+
+.collection {
+    margin-top: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1111px;
+  }
+  
+  .collection-title {
+    background-image: url("../images/collection-title.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 196px;
+    width: 100%;
+  }
+  
+  .collection__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -70px; 
+    padding: 0;
+  }
+  
+  .collection__item {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .collection__item-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .collection__item-name {
+    margin-top: 72px;
+    font-size: var(--font-size-h3);
+    font-weight: 900;
+    font-family: var(--font-family-title);
+    margin-bottom: 12px;
+    line-height: var(--line-height-h3);
+  }
+  
+  .collection__item-description {
+    margin-top: 12px;
+    font-size: var(--font-size-body-2);
+    line-height: var(--line-height-body-2);
+    color: var(--color-dark-grey);
+    font-weight: 400;
+    font-family: var(--font-family-body);
+  }
+
+ 

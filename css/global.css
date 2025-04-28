@@ -1,0 +1,79 @@
+@import url("./normalize.css");
+@import url("./variables.css");
+@import url("fonts.css");
+
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100px;
+    scroll-behavior: smooth;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    object-fit: cover;
+    display: flex;
+}
+
+ul,
+ol {
+    list-style-type:none;
+}
+
+body {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    font-family:"Barlow","sans-serif";
+    background-color: var(--color-light-grey);
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1380px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Header */
+
+.navbar__container {
+    display: flex;
+}
+.nav-logo {
+  margin-top: 44px;
+  margin-bottom: 44px;
+  margin-left: 44px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    margin-left:761px;
+}
+.nav-link {
+    color:#83888F;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+}
