@@ -18,6 +18,11 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+
+a:hover svg path {
+    fill: rgb(250, 96, 96);
+}
+
 img {
   object-fit: cover;
   display: flex;
@@ -116,6 +121,10 @@ h1 {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
+
+  &:hover {
+     color:#333D4B;
+  }
 }
 /* Footer */
 .footer {
