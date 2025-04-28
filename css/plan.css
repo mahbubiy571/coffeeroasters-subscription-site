@@ -1,0 +1,195 @@
+@import "./global.css";
+/* Hero */
+.hero {
+  padding-top: 22px;
+  padding-bottom: 84px;
+}
+.hero__container {
+  background: url("../images/planHeroBg.png") no-repeat;
+  background-size: cover;
+  padding-top: 134px;
+  padding-bottom: 134px;
+}
+.hero__title {
+  font-size: var(--font-xl);
+  line-height: var(--font-xl);
+  margin-bottom: 32px;
+}
+.hero__description {
+  opacity: 0.8;
+  width: 445px;
+}
+/* Pricing */
+.pricing {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+.pricing__container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url("../images/pricingbg.png") no-repeat;
+  background-size: cover;
+}
+.pricing__mark {
+  margin-bottom: 82px;
+}
+.pricing__mark span {
+  background: transparent;
+}
+.pricing__mark span:nth-child(1) {
+  margin-left: -15px;
+}
+.pricing__mark span:nth-child(3) {
+  margin-right: -15px;
+}
+.workflow__list {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+.workflow__item {
+  width: 285px;
+}
+.workflow__num {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-xl);
+  line-height: var(--font-xl);
+  color: var(--color-accent);
+  margin-bottom: 38px;
+}
+.workflow__subtitle {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-md);
+  line-height: var(--font-md);
+  margin-bottom: 42px;
+}
+/* Support */
+.support {
+  padding-top: 84px;
+  padding-bottom: 44px;
+}
+.support__container {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-secondary);
+}
+.support__icon {
+  display: inline-block;
+}
+.support__item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--color-gray);
+  width: 255px;
+  color: var(--color-gray);
+}
+.support__item span {
+  font-family: var(--font-primary);
+  display: inline-block;
+  font-size: var(--font-md);
+  line-height: 36px;
+}
+.support__item:first-child {
+  padding-top: 0;
+}
+.support__item:last-child {
+  border-bottom: none;
+}
+.support__item.active .support__number {
+  color: var(--color-primary);
+}
+.support__item.active .support__name {
+  color: var(--color-secondary);
+}
+.support__number {
+  margin-right: 25px;
+}
+
+.support__about {
+  width: 730px;
+}
+.support__how {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.support__title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-lg);
+  line-height: var(--font-lg);
+  color: var(--color-gray);
+}
+.support__cards {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.support__card {
+  padding: 32px 28px 84px;
+  width: 228px;
+  height: 250px;
+  background-color: #f4f1eb;
+  border-radius: 8px;
+}
+.support__subtitle {
+  margin-bottom: 24px;
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-md);
+}
+/*  FAQ */
+.faq {
+  padding-top: 44px;
+}
+.faq__container {
+  color: var(--color-gray);
+}
+.faq__end {
+  width: 730px;
+  margin-left: auto;
+}
+.faq__list {
+  width: 730px;
+  margin-left: auto;
+}
+.faq__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 88px;
+}
+.faq__title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-lg);
+  line-height: 40px;
+}
+.faq__content {
+  border-radius: 10px;
+  background: url("../images/pricingbg.png") no-repeat;
+  background-size: cover;
+  padding: 47px 64px;
+  color: var(--color-white);
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+.faq__subtitle {
+  font-weight: 400;
+  opacity: 50.37%;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.faq__desctiption {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-md);
+  line-height: 40px;
+}
+.faq__buttons {
+  display: flex;
+  justify-content: flex-end;
+}

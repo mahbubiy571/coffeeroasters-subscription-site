@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --color-primary: #0e8784; /* Teal (buttons, icons) */
+  --color-secondary: #333d4b; /* Dark navy (text, footer background) */
+  --color-accent: #fdd6ba; /* Soft peach (highlight numbers) */
+  --color-light: #fefcf7; /* Very light background */
+  --color-white: #ffffff;
+  --color-gray: #83888f; /* Paragraph text */
+
+  /* Typography */
+  --font-primary: "Fraunces", serif; /* Bold headings */
+  --font-secondary: "Barlow", sans-serif; /* Body text */
+
+  /* Font Sizes */
+  --font-xl: 4.5rem; /* Hero heading */
+  --font-lg: 2.5rem; /* Section headings */
+  --font-md: 1.5rem; /* Card titles */
+  --font-sm: 1rem; /* Body text */
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+
+  /* Border radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+
+  /* Shadows */
+  --shadow-sm: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

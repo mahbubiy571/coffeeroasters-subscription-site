@@ -1,1 +1,113 @@
-@import url("global.css");
+@import "./global.css";
+/* About */
+.about {
+  padding-top: 22px;
+  padding-bottom: 84px;
+}
+.about__container {
+  padding-top: 137px;
+  padding-bottom: 137px;
+  background: url("../images/aboutBgImg.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.about__title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-lg);
+  line-height: var(--font-lg);
+  margin-bottom: 24px;
+}
+.about__description {
+  width: 440px;
+}
+/* Portfolio */
+.portolio {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+.portfolio__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 125px;
+}
+.portfolio__about {
+  color: var(--color-secondary);
+}
+.portfolio__title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-lg);
+  line-height: var(--font-lg);
+  margin-bottom: 32px;
+}
+.portfolio__description {
+  width: 540px;
+  opacity: 0.8;
+}
+/* Goal */
+.goal {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+.goal__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: url("../images/goal.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+.goal__about {
+  width: 540px;
+}
+.goal__title {
+  padding-top: 88px;
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-lg);
+  line-height: var(--font-lg);
+  margin-bottom: 32px;
+}
+.goal__description {
+  opacity: 0.8;
+  padding-bottom: 176px;
+}
+.goal__img {
+  border-radius: 10px;
+  margin-top: -160px;
+}
+/* Map */
+.map {
+  padding-top: 84px;
+}
+.map__container {
+  color: var(--color-secondary);
+}
+
+.map__title {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: var(--font-md);
+  line-height: var(--font-md);
+  color: #83888f;
+  margin-bottom: 72px;
+}
+.map__list {
+  display: flex;
+  align-items: center;
+  gap: 95px;
+}
+.map__item {
+  width: 285px;
+}
+.map__subtitle {
+  font-family: var(--font-primary);
+  font-weight: 900;
+  font-size: 32px;
+  line-height: var(--spacing-md);
+  margin-top: 45px;
+  margin-bottom: 24px;
+}
